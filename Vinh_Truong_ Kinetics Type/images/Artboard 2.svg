@@ -1,0 +1,49 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 87.58px;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9 {
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.08em;
+      }
+
+      .cls-3 {
+        font-size: 43.24px;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        font-size: 30.79px;
+      }
+
+      .cls-5 {
+        opacity: 0.5;
+      }
+
+      .cls-6, .cls-7 {
+        opacity: 0.25;
+      }
+
+      .cls-7, .cls-9 {
+        font-size: 137.99px;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.03em;
+      }
+    </style>
+  </defs>
+  <title>Artboard 2</title>
+  <text id="you" class="cls-1" transform="translate(88 97.1) scale(1.02 1)"><tspan class="cls-2">Y</tspan><tspan x="40.73" y="0">ou</tspan></text>
+  <text id="shall" class="cls-3" transform="matrix(-0.02, 0.99, -1, -0.02, 236.13, 76.46)">Shall</text>
+  <text class="cls-4" transform="translate(281.34 160.17) rotate(90)">not</text>
+  <text id="not_2" class="cls-5" transform="translate(302.34 160.17) rotate(90)">not</text>
+  <text id="not_3" class="cls-6" transform="translate(323.34 160.17) rotate(90)">not</text>
+  <text id="pass_2" class="cls-7" transform="translate(259.93 298.5) scale(1.08 1)"><tspan class="cls-8">P</tspan><tspan x="69.82" y="0">ass</tspan></text>
+  <text id="pass" class="cls-9" transform="translate(220.93 298.5) scale(1.08 1)"><tspan class="cls-8">P</tspan><tspan x="69.82" y="0">ass</tspan></text>
+</svg>

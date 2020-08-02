@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.hidden{
+	display: none;
+}
+
+body{
+	background-color: #fff;
+	color: black;
+	font-family: arial;
+	font-size: 100%; 
+}
+
+.type{
+	margin-top: 12px;
+}
+
+.content{
+	width: 530px;
+	border: thin solid black;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	animation: back 6s infinite;
+}
+
+.svg{
+	width: 100%;
+}
+
+.header{
+	margin: 30px 0 10px;
+	font-size: 2em;
+}
+
+.header, .subhead{
+	text-align: center;
+}
+
+.controls{
+	text-align: center;
+}
+.controls button{
+	padding: 20px;
+	cursor: pointer;
+	margin-top: 1.5em;
+	border-radius: 1em;
+}
+
+.gandalf-vector{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 238px;
+}
+
+#typelayout path{
+	opacity: 0;
+}
+
+.text-anim { animation: fadewords 0.2s forwards; }
+
+.container-turn { animation: turncontainer 0.2s linear 0.5s forwards, turnagain 0.3s linear 1s forwards;}
+
+
+#shall {animation-delay: 1s;}
+#not {animation-delay: 2s;}
+#not_2 {animation-delay: 2.25s;}
+#not_3 {animation-delay: 2.5s;}
+#pass {animation-delay: 3s;}
+
+@keyframes fadewords {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes back{
+	0%{ background-color: black; }
+	25%{ background-color: yellow; }
+	50%{ background-color: red; }
+	75%{ background-color: yellow; }
+	100%{background-color: white;}
+}
+
+@keyframes turncontainer{
+	100%{ transform: rotate(-90deg) scale(1); }
+}
+
+@keyframes turnagain {
+  0% { transform: rotate(-90deg) scale(1); }
+  90% { transform: rotate(-90deg) scale(1); }
+  100% { transform: rotate(0deg) scale(1); }
+}
